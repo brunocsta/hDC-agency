@@ -1,3 +1,53 @@
+/*Variáveis*/
+:root{
+  --grey-color: #444;
+}
+
+/*Geral*/
 body {
   font-family: 'Roboto', sans-serif;
+}
+
+.row {
+  margin: 0px;
+}
+
+.container{
+  padding: 70px 0px;
+}
+
+p,li{
+  color: var(--grey-color);
+  font-size: 14px;
+}
+
+/*Barra de Navegação*/
+header, .navbar{
+  background-color: #353D41;
+}
+
+.nav-container{
+  padding-top: 0 ;
+  padding-bottom: 0;
+}
+
+#logo{
+  width: 75px;
+}
+
+.navbar-brand{
+  color: #FFF !important;
+  padding: 0 !important;
+}
+
+.navbar-brand:hover{
+  color: #FFF !important;
+}
+
+#navbar-links a{
+  color: #FFF;
+}
+
+.navbar-expand-lg, .navbar-nav, .nav-link{
+  padding: 1rem 0.8rem;
 }
